@@ -1,7 +1,7 @@
 final limitTime = 10;
 
 
-final db_name = "EDMTQuiz2023.db";
+final db_name = "EDMTQuiz2026.db";
 
 final columnMainCategoryId = "ID";
 final columnCategoryName = "Name";
