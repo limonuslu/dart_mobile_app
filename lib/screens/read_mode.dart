@@ -115,7 +115,7 @@ class _MyReadModePageState extends State<MyReadModePage> {
               actions: [
                 TextButton(
                     onPressed: () {
-                      Navigator.of(context).pop();
+                      //Navigator.of(context).pop();
                       Navigator.pop(context);
                     },
                     child: Text('Hayır')),

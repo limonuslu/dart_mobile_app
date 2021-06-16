@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="example.com.a">
+    package="com.bilgi.telasi">
    <application
-        android:label="a"
+        android:label="Bilgi Telaşı"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
