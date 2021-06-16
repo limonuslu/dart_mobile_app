@@ -154,7 +154,7 @@ class QuestionBody extends StatelessWidget {
             onPageChanged: (page, _) {
               context.read(currentReadPage).state = page;
               context.read(isEnableShowAnswer).state = false;
-              context.read(isEnableShowAnswer).state = false;
+
             }));
   }
 

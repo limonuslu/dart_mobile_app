@@ -116,6 +116,7 @@ class _MyReadModePageState extends State<MyReadModePage> {
                 TextButton(
                     onPressed: () {
                       //Navigator.of(context).pop();
+
                       Navigator.pop(context);
                     },
                     child: Text('Hayır')),
@@ -125,6 +126,7 @@ class _MyReadModePageState extends State<MyReadModePage> {
                         //  '${context.read(questionCategoryState).state.name}_${context.read(questionCategoryState).state.ID}',
                           //context.read(currentReadPage).state);
 
+                      context.read(isEnableShowAnswer).state = false;
                       Navigator.of(context).pop();
                       Navigator.pop(context);
                     },

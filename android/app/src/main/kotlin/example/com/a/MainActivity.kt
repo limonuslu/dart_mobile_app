@@ -1,4 +1,4 @@
-package example.com.a
+package com.bilgi.telasi
 
 import io.flutter.embedding.android.FlutterActivity
 
